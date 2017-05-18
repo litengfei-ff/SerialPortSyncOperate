@@ -78,7 +78,7 @@ namespace SP同步方法
         /// 同步方式 读取字节
         /// </summary>
         /// <param name="v"></param>
-        private static Byte[] SyncReadBytes(int bufferSize)
+        private static Byte[] SyncReadBytes(int bufferSize) 
         {
             isOverTime = false;
             // 开始计时
